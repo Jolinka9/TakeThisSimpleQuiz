@@ -11,7 +11,7 @@ function mySecondJSFunction(resultArr, sources) {
       resultArr[resultArr.length] = sources[m][i];
     }
   }
-  console.log(resultArr);
+  //console.log(resultArr);
 }
 
 //mySecondJSFunction(mergedArr, sources);
@@ -22,9 +22,9 @@ function restOperator(resultArr, ...sources) {
       resultArr[resultArr.length] = sources[m][i];
     }
   }
-  console.log(resultArr);
+  //console.log(resultArr);
 }
 
 restOperator(mergedArr, firstArr, secondArr, thirdArr);
 
-console.log(spreadResult);
+//console.log(spreadResult);
